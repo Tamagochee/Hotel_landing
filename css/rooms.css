@@ -1,0 +1,102 @@
+.content_rooms .rooms_title {
+  font-family: "Adobe Garamond Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #14274A;
+  padding: 82px 0 34px;
+}
+.content_rooms .rooms_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #14274A;
+  margin: 0 200px 82px;
+}
+.content_rooms .room_card {
+  width: fit-content;
+  margin: 0 auto 81px;
+}
+.content_rooms .room_card .swiper_wrap {
+  position: relative;
+}
+.content_rooms .room_card .swiper_wrap .circles_wrap {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  bottom: 37px;
+  left: 50%;
+  margin-left: -50px;
+}
+.content_rooms .room_card .swiper_wrap .circles_wrap .circle {
+  display: block;
+  width: 20px;
+  height: 100%;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.content_rooms .room_card .swiper_wrap .circles_wrap .circle:first-child {
+  background-color: #ffffff;
+}
+.content_rooms .room_card .swiper_wrap img {
+  display: block;
+  margin: 0 auto;
+}
+.content_rooms .room_card .room_type {
+  background: #14274A;
+  line-height: 141px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content_rooms .room_card .details_wrap {
+  border: 2px solid #14274A;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 78px 162px;
+}
+.content_rooms .room_card .details_wrap .expand_button {
+  display: flex;
+}
+.content_rooms .room_card .details_wrap .expand_button .plus_button {
+  margin: auto 0;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background: #E0B973;
+}
+.content_rooms .room_card .details_wrap .expand_button .room_details {
+  margin: auto auto auto 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #14274A;
+}
+.content_rooms .room_card .details_wrap .buy_button {
+  display: block;
+  width: 288px;
+  line-height: 78px;
+  background: #E0B973;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
