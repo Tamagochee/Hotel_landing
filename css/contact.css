@@ -87,6 +87,7 @@
   resize: none;
 }
 .contacts_form_wrap .form_wrapper .submit_button {
+  display: block;
   width: 145px;
   line-height: 78px;
   text-align: center;
