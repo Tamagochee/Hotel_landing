@@ -47,6 +47,9 @@
                     border: 2px solid #ffffff;
                     border-radius: 50%;
                     cursor: pointer;
+                    &:hover {
+                        background-color: rgba(#FFFFFF, 0.3);
+                    }
                 }
                 bottom: 37px;
                 left: 50%;
