@@ -26,6 +26,14 @@
 .content_rooms .room_card .swiper_wrap {
   position: relative;
 }
+.content_rooms .room_card .swiper_wrap .img_wrap {
+  width: 1590px;
+  height: 920px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .content_rooms .room_card .swiper_wrap .circles_wrap {
   position: absolute;
   width: 100px;
@@ -43,9 +51,7 @@
   height: 100%;
   border: 2px solid #ffffff;
   border-radius: 50%;
-}
-.content_rooms .room_card .swiper_wrap .circles_wrap .circle:first-child {
-  background-color: #ffffff;
+  cursor: pointer;
 }
 .content_rooms .room_card .swiper_wrap img {
   display: block;

@@ -25,6 +25,14 @@
         margin: 0 auto 81px;
         .swiper_wrap {
             position: relative;
+                .img_wrap {
+                    width: 1590px;
+                    height: 920px;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }                  
             .circles_wrap {
                 position: absolute;
                 width: 100px;
@@ -38,9 +46,7 @@
                     height: 100%;
                     border: 2px solid #ffffff;
                     border-radius: 50%;
-                    &:first-child {
-                        background-color: #ffffff;
-                    }
+                    cursor: pointer;
                 }
                 bottom: 37px;
                 left: 50%;
