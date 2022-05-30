@@ -19,14 +19,15 @@ html(lang="en")
             section.content_rooms(id="content")
                 h2.rooms_title ROOMS AND RATES
                 p.rooms_text Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes, comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces.
-                mixin card_room(image, type, price)
+                mixin card_room(image, type, price, img_id)
                     .room_card
                         .swiper_wrap
-                            img(src= image, alt="" title= type)
+                            .img_wrap
+                                img.img_frame(src= image, alt="" title= type, id= img_id)
                             .circles_wrap
-                                a.circle(href="#")
-                                a.circle(href="#")
-                                a.circle(href="#")
+                                .circle
+                                .circle
+                                .circle
                         p.room_type !{type}
                         .details_wrap
                             a.expand_button(href="#")
@@ -34,8 +35,9 @@ html(lang="en")
                                     img(src="pics/rooms/plus.svg", alt="")
                                 p.room_details VIEW ROOM DETAILS
                             a.buy_button(href="#") $!{price} Avg/night
-                +card_room('img/rooms/single_1.png', "SINGLE ROOM", "147")
-                +card_room('img/rooms/double_1.png', "DOUBLE ROOM", "155")
-                +card_room('img/rooms/twin_1.png', "TWIN ROOM", "155")
+                +card_room('img/rooms/0.png', "SINGLE ROOM", "147", "card1")
+                +card_room('img/rooms/3.png', "DOUBLE ROOM", "155", "card2")
+                +card_room('img/rooms/6.png', "TWIN ROOM", "155", "card3")
             include modules/testimonials.pug
         include modules/footer.pug
+        script(src="js/rooms.js") 
